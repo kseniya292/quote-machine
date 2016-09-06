@@ -1,5 +1,57 @@
 @media all and (min-width: 320px) {
 
+body {
+	background-color: #d3d3d3;
+}
+.white-box {
+  top: 300px;
+  background-color: #27416C;
+  opacity: .7;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.quote-box {
+  text-align: center;
+}
+
+h1, p {
+  color: white;
+  font-family: Arial;
+}
+.message {
+  font-size: 30px;
+}
+
+.author {
+  width: 100%;
+  text-align: right;
+}
+
+#getMessage {
+  padding: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  background-color: #1d9d74;
+  color: white;
+  border: none;
+  float: left;
+}
+#getMessage:hover {
+  background-color: grey;
+}
+
+.twitter-share-button {
+  text-decoration: none;
+}
+.fa-twitter {
+  font-size: 40px;
+  color: #1d9d74;
+  margin-left: 20px;
+}
+.fa-twitter:hover {
+  color: grey;
+}
 
 
 
